@@ -1,12 +1,16 @@
 # MSDSM Project Evaluation Code
 
-This code repo contains various models and its application code. Different models trianed with QAT + Edge Complied + Retrained.
+This code repo contains various models and their application codes. Different models trained with QAT + Edge Complied + Retrained.
 
-In order to check its performance and evaluations, must have raspberry pi hardware to test.
+It must have Raspberry Pi hardware to test to check its performance and evaluations.
 
-You can test this code accross Raspberry pi 3 & 4. This code base doesnot support Raspberry Pi 5 because of different Arm based compilation. Raise request for code  for testing in Raspberry Pi 5.
+You can test this code across Raspberry Pi 3 & 4. This code base does not support Raspberry Pi 5 because of different Arm-based compilations. Raise request for code  for testing in Raspberry Pi 5.
 
-Development code is not intended for general public.
+The development code is not intended for the general public.
+
+
+All model drive link: [Link](https://drive.google.com/file/d/1OJJylNon3eJGoeiXVJRU5yNQRklPqTW8/view?usp=drive_link)
+
 
 ### Image Classification Models
 ```
@@ -34,20 +38,20 @@ All you need is a Raspberry Pi and a Picamera or a USB Camera to run this projec
 ## Configure your Raspberry Pi to Run this Project
 Download this repo on your Raspberry Pi and run the bash script "install.sh" using command ```sudo sh install.sh```.
 This bash script will download all the necessary packages/libraries required for this project. Also, the all the Models and the source code will be downloaded automatically and placed in the correct path. <br>
-You need to wait patiently as the script can take upto 20 minutes (depending on your internet speed) to complete the task.
+It would be best if you waited patiently as the script can take upto 20 minutes (depending on your internet speed) to complete the task.
 
-The script perfoms following actions on your Raspberry Pi automatically:- 
+The script performs the following actions on your Raspberry Pi automatically:- 
 
 - Update & upgrade Raspberry Pi OS
 - Install Apache Webserver and PHP
 - Install Tensorflow Lite and Google Coral USB Accelerator Libraries
 - Install OpenCV
-- Download pre-trained Models from google coral repository
+- Download pre-trained Models from Google Coral repository
 - Download the model_garden source code 
-- Move the models and code to desired location in your Raspbrerry Pi and set permissions.
+- Move the models and code to the desired location in your Raspberry Pi and set permissions.
 
 ## How to run the code
-Open terminal in Raspberry Pi and type the following commands:-
+Open the terminal in Raspberry Pi and type the following commands:-
 ```
 cd /vars/www/html/Siva_Project_models_evaluation
 
